@@ -352,11 +352,6 @@ NSTimer *leftSplitTimer;
 //设置时间
 -(void)setupTime{
     self.totalTime.stringValue = self.movie.length.stringValue;
-    //    //当无法通过AVAsset获取总时间时走此方法
-    //    if ([self.currentItem.totalTime.stringValue isEqualToString:@"00:00"]) {
-    //        self.currentItem.totalTime.stringValue = self.totalTime.stringValue;
-    //        [self.tableView reloadData];
-    //    }
 }
 //MARK: 添加KVO
 -(void)addKVO{
@@ -531,6 +526,7 @@ NSTimer *leftSplitTimer;
                 SBPlaylistItem *item = [self.tableView viewAtColumn:0 row:index makeIfNecessary:YES];
                 [self sbViewGetFileURL:item.url];
                 if (_isFullScreen) {
+                    [kCurrentWindow setContentSize:[NSScreen mainScreen].frame.size];
                     return;
                 }
             }else{
@@ -993,7 +989,7 @@ NSTimer *leftSplitTimer;
     if (tableView.selectedRow == -1) return;
     SBPlaylistItem *item = [tableView viewAtColumn:0 row:tableView.selectedRow makeIfNecessary:YES];
     if (!item) return;
-    
+    if (!item.isItemAvailable) {return;}
     [self sbViewGetFileURL:item.url];
 }
 

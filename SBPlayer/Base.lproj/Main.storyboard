@@ -154,25 +154,25 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="mLv-bI-O0c"/>
-                                        <menuItem title="Sound reduction" keyEquivalent="" id="VGP-Cg-ubv">
+                                        <menuItem title="声音减" keyEquivalent="" id="VGP-Cg-ubv">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="soundReduction:" target="Voe-Tx-rLC" id="TVd-aq-GXH"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Sound plus" keyEquivalent="" id="J6n-kY-Srs">
+                                        <menuItem title="声音增" keyEquivalent="" id="J6n-kY-Srs">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="soundPlus:" target="Voe-Tx-rLC" id="0ag-aS-S3G"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Back to 10 seconds" keyEquivalent="" id="lBn-6e-9Tn">
+                                        <menuItem title="后退10秒" keyEquivalent="" id="lBn-6e-9Tn">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="backToTenSeconds:" target="Voe-Tx-rLC" id="2Eq-mY-t1x"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Forward 10 seconds" keyEquivalent="" id="Bb6-HV-mGC">
+                                        <menuItem title="前进10秒" keyEquivalent="" id="Bb6-HV-mGC">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="ForwardTenSeconds:" target="Voe-Tx-rLC" id="pHJ-h4-U0Y"/>
