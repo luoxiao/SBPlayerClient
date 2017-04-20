@@ -411,38 +411,6 @@
             endingLineNumber = "1127"
             landmarkName = "-clearAll:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__27-[ViewController clearAll:]_block_invoke"
-                  moduleName = "SBPlayer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sycf_ios_13579/Documents/GitHub/SBPlayerClient/SBPlayer/ViewController.m"
-                  timestampString = "514344232.686321"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1127"
-                  endingLineNumber = "1127"
-                  offsetFromSymbolStart = "42">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__27-[ViewController clearAll:]_block_invoke_2"
-                  moduleName = "SBPlayer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sycf_ios_13579/Documents/GitHub/SBPlayerClient/SBPlayer/ViewController.m"
-                  timestampString = "514344232.687818"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1127"
-                  endingLineNumber = "1127"
-                  offsetFromSymbolStart = "15">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

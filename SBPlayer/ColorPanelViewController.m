@@ -30,7 +30,7 @@
     [self setButton:self.colorThree withColor:[NSColor blueColor]];
     [self setButton:self.colorFour withColor:[NSColor blackColor]];
     [self setButton:self.colorFive withColor:[NSColor purpleColor]];
-    [self setButton:self.colorSix withColor:[NSColor underPageBackgroundColor]];
+    [self setButton:self.colorSix withColor:[NSColor magentaColor]];
     [self setButton:self.colorSeven withColor:[NSColor orangeColor]];
     [self setButton:self.colorEight withColor:[NSColor brownColor]];
 }
