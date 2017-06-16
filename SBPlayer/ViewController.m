@@ -513,6 +513,10 @@ NSTimer *leftSplitTimer;
         [self removeVideoAndInitPlayer];
         //进度条置0
         self.progressIndicator.doubleValue = 0.0;
+        if (_isFullScreen) {
+            [kCurrentWindow toggleFullScreen:nil];
+            _isFullScreen = NO;
+        }
         return;
     }
     VideoInfomation *aVideo = [[VideoInfomation alloc]init];
@@ -1031,6 +1035,7 @@ NSTimer *leftSplitTimer;
         self.visualEffectView.material = material;
         self.controlBackgroundView.layer.backgroundColor = [NSColor clearColor].CGColor;
         [[NSUserDefaults standardUserDefaults]setObject:@(material) forKey:@"material"];
+        [[NSUserDefaults standardUserDefaults]setObject:[NSData new] forKey:@"currentColor"];
     }else{
         self.controlBackgroundView.layer.backgroundColor = color;
         NSColor *selectedColor = [NSColor colorWithCGColor:color];
