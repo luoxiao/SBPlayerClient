@@ -8,7 +8,7 @@
 ## SBPlayer
 简书介绍详情请点击：[SBPlayerClient](http://www.jianshu.com/p/1ad52c702190)
 
-下载地址：[SBPlayer_v1.0](https://pan.baidu.com/s/1migCD8O)
+下载地址：[SBPlayer_v1.12](https://pan.baidu.com/s/1c1OF5XQ)
 
 中文使用方法请点击：[教你熟练使用SBPlayer](http://www.jianshu.com/p/bd9716cafd38)
 
