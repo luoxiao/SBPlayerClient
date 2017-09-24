@@ -608,11 +608,11 @@ NSTimer *leftSplitTimer;
                 _loadingTipView.hidden = YES;
             }
             [kCurrentWindow setFrame:NSMakeRect(0, 0, 550, 80) display:YES];
-            [kCurrentWindow center];
+            //[kCurrentWindow center];
             return;
         }
         if ([SBApplication share].isDoubleClickOpen) {
-            [kCurrentWindow center];
+            //[kCurrentWindow center];
         }
     }
     [self.view layoutSubtreeIfNeeded];
