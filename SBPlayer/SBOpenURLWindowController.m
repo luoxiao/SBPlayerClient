@@ -33,8 +33,6 @@
     }
     [self close];
 }
--(BOOL)acceptsFirstResponder{
-    return YES;
-}
+
 
 @end
