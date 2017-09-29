@@ -20,6 +20,10 @@
     [super windowDidLoad];
     [self.window standardWindowButton:NSWindowMiniaturizeButton].hidden = YES;
     [self.window standardWindowButton:NSWindowZoomButton].hidden = YES;
+    if ([self.window canBecomeKeyWindow]) {
+        [self.window becomeKeyWindow];
+        [self.urlField becomeFirstResponder];
+    }
 }
 - (IBAction)openURLAction:(id)sender {
     if (self.urlField.stringValue.length > 0) {
