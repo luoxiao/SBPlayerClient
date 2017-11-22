@@ -1,7 +1,7 @@
 # SBPlayerClient
 基于[VLC](http://www.videolan.org/) 开发的macOS平台视频播放器
 
-请使用Xcode8打开,Xcode9会报错
+请使用最新Xcode打开
 
 ![icon](https://github.com/shibiao/SBPlayerClient/blob/master/images/icon32%402x.png)
 
