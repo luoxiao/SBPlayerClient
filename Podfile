@@ -6,7 +6,7 @@ target 'SBPlayer' do
   # use_frameworks!
 	# pod 'VLCKit', '3.0.0a24'
     pod 'Masonry'
-    pod 'Realm'
+    pod 'Realm', '~> 3.0'
   # Pods for SBPlayer
 
 end
